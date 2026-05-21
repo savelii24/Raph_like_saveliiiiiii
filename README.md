@@ -2,9 +2,8 @@
 
 ---
 
-## Биоинформатические и статистические данные в магистерской работе на тему  
-### «Филогения, систематика и эволюция Raphidocystis-подобных центрохелидных солнечников (Haptista: Centroplasthelida)»
-
+## Биоинформатические и статистические данные в магистерской работе на тему: «Филогения, систематика и эволюция Raphidocystis-подобных центрохелидных солнечников (Haptista: Centroplasthelida)»
+### Автор: Полузеров Савелий Андреевич
 ### Структура репозитория
 
 ```text
@@ -52,8 +51,8 @@
 
 ---
 
-## Bioinformatic and statistical data for master's thesis  
-### “Phylogeny, systematics, and evolution of Raphidocystis-like centrohelid heliozoans (Haptista: Centroplasthelida)”
+## Bioinformatic and statistical data for master's thesis “Phylogeny, systematics, and evolution of Raphidocystis-like centrohelid heliozoans (Haptista: Centroplasthelida)”
+### Author: Poluzerov Savelii
 
 ### Repository structure
 
