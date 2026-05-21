@@ -98,3 +98,19 @@ Appendix 4 contains information on the statistical and bioinformatic processing 
 | `vl_am_br_tu_hm.xlsx` | Measurements of the length and width of plate scales of strains Tur, Vla, Amet, Bar, and HM-5Z. |
 | `tral_.xlsx` | Measurements of the length and width of inner and outer scales of strain Tral. |
 | `ib_fusi.xlsx` | Measurement of the length of fusiform scales of strain Ib. |
+
+
+## R dependencies
+
+The statistical analysis was performed using [R](https://www.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/).
+
+The script requires the following R packages:
+
+- [`readxl`](https://cran.r-project.org/package=readxl)
+- [`dplyr`](https://cran.r-project.org/package=dplyr)
+- [`tidyr`](https://cran.r-project.org/package=tidyr)
+- [`stringr`](https://cran.r-project.org/package=stringr)
+- [`ggplot2`](https://cran.r-project.org/package=ggplot2)
+- [`ggpubr`](https://cran.r-project.org/package=ggpubr)
+- [`openxlsx`](https://cran.r-project.org/package=openxlsx)
+- [`tibble`](https://cran.r-project.org/package=tibble)
