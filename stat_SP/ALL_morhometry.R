@@ -10,6 +10,7 @@ library(tibble)
 file_scales <- "vl_am_br_tu_hm.xlsx"
 file_cells <- "cell_d.xlsx"
 file_tral <- "tral_.xlsx"
+file_ib <- "ib_fusi.xlsx"
 
 clean_numeric <- function(x) {
   x <- as.character(x)
@@ -20,6 +21,7 @@ clean_numeric <- function(x) {
 tbl_scales_raw <- read_excel(file_scales) %>% mutate(across(everything(), clean_numeric))
 tbl_cells_raw <- read_excel(file_cells) %>% mutate(across(everything(), clean_numeric))
 tbl_tral_raw <- read_excel(file_tral) %>% mutate(across(everything(), clean_numeric))
+tbl_ib_raw <- read_excel(file_ib) %>% mutate(across(everything(), clean_numeric))
 
 # ГРАФИК ШИРИНЫ ДЛИНЫ ЧЕШУЕК ВСЕХ КРОМЕ IB, TRAL
 tbl_scales_plot <- tbl_scales_raw %>% mutate(row_id = row_number())
